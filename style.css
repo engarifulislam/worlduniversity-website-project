@@ -43,6 +43,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 .header_area {
+position: absolute;top: 0;left: 0;
+    right: 0;
 
 }
 
@@ -181,7 +183,7 @@ ugc img {
   position: relative;background: url(img/afi-bg.png);
   z-index: 1;
 }
-.affiliation_area:after {
+.affiliation_area::after {
   background: inherit;
   content: '';
   display: block;
@@ -191,7 +193,7 @@ ugc img {
   right: 0;
   z-index: -1;
 }
-.affiliation_area:after {
+.affiliation_area::after {
   bottom: 0;
   -webkit-transform: skewY(3deg);
           transform: skewY(3deg);
@@ -228,10 +230,189 @@ ugc img {
   margin-bottom: 80px;
 }
 
-.how_to_enroll img {
-  background-attachment: fixed;
-  background-image: initial;
-  background-size: cover;
-  min-height: 494px;
-  min-width: 1317px;
+.how_to_enroll {
+/*  background: rgba(0, 0, 0, 0) url("img/how-to-enroll.png") repeat scroll 0 0 / cover ;*/
+  height: 249px;
+}
+
+
+department_area {
+  position: relative;background: url(img/all-depertment.png);
+  z-index: 1;
+}
+
+
+
+
+
+.department_area {
+  position: relative;background: url(img/all-depertment.png);
+  z-index: 1;  padding: 25px;
+}
+.department_area::after {
+  background: inherit;
+  content: "";
+  display: block;
+  height: 110%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+.department_area::after {
+  bottom: 0;
+  -webkit-transform: skewY(4deg);
+          transform: skewY(4deg);
+  -webkit-transform-origin: 0 100% 0;
+          transform-origin: 0 100% 0;
+}
+
+
+
+h4.dip {
+  color: #fff;
+  font-size: 40px;
+/*  padding: 55px;*/
+  text-align: left;
+}h4.dips {
+  color: #033d74;
+  font-size: 40px;
+/*  padding: 55px;*/
+  text-align: left;
+}
+
+.department_single.col-md-4 {
+  padding-right: 0 !important;
+}
+.one{
+  background: #033d74 none repeat scroll 0 0;border-top: 10px solid #a0bed7;
+}
+
+.same.one > img {
+  bottom: 28px;
+  position: absolute;
+  right: 4px;
+  width: 156px;
+}
+.same.two > img {
+  bottom: 38px;
+  position: absolute;
+  right: 6px;
+  width: 146px;
+}
+.same.tree > img {
+  bottom: 31px;
+  position: absolute;
+  right: 17px;
+  width: 147px;
+}
+.same.fore > img {
+  bottom: 33px;
+  position: absolute;
+  right: 17px;
+  width: 149px;
+}
+
+.same.five > img {
+  bottom: 31px;
+  position: absolute;
+  right: 18px;
+  width: 108px;
+}
+.same.six > img {
+  bottom: 27px;
+  position: absolute;
+  right: 18px;
+  width: 151px;
+}
+.same.sivern > img {
+  bottom: 34px;
+  position: absolute;
+  right: 19px;
+  width: 133px;
+}
+.same.eight > img {
+  bottom: 30px;
+  position: absolute;
+  right: 12px;
+  width: 144px;
+}
+
+.same.nine > img {
+  bottom: 35px;
+  position: absolute;
+  right: 20px;
+  width: 130px;
+}
+.two{
+  background: #1976d2 none repeat scroll 0 0;border-top: 10px solid #a0bed7;
+/*  margin-left: 10px;*/
+}
+
+.same {
+  height: 300px;
+  margin-bottom: 12px;
+}
+.same h4{
+	 color: #edf3f7;
+  font-size: 34px;
+  padding: 15px;
+}
+.same p {
+  color: #fff;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 1px 1px 1px 15px;
+}
+.tree {
+  background: #4d6984 none repeat scroll 0 0;border-top: 10px solid #a0bed7;
+}
+.fore {
+  background: #4d6984 none repeat scroll 0 0;border-top: 10px solid #a0bed7;
+}
+.five {
+  background: #033d74 none repeat scroll 0 0;border-top: 10px solid #a0bed7;
+}
+.six {
+  background: #1976d2 none repeat scroll 0 0;border-top: 10px solid #a0bed7;
+}
+.sivern {
+  background: #033d74 none repeat scroll 0 0;border-top: 10px solid #a0bed7;
+}
+.eight {
+  background: #1976d2 none repeat scroll 0 0;border-top: 10px solid #a0bed7;
+}
+.nine {
+  background: #4d6984 none repeat scroll 0 0;border-top: 10px solid #a0bed7;
+}
+
+.success_story {
+  background: #fff url("img/team.png") repeat scroll 0 0;
+  padding-top: 120px;
+}
+.succ_single {
+  background: #dc002e;
+}
+.success_single.col-md-4 {
+  padding-right: 0 !important;
+}
+.success_single_left {
+  margin-right: 15px;
+  width: 152px;text-align: center;
+}
+.success_single_left > img {
+  border-radius: 63px;
+  width: 100px;
+}
+.sname {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 6px;
+}
+.sd {
+  font-size: 14px;
+  font-weight: 400;
+}
+.slider_area {
+    position: relative
 }
