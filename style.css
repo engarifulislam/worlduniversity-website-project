@@ -57,11 +57,13 @@ position: absolute;top: 0;left: 0;
 }
 
 .left_side {
-    float: left;
+    float: left;width: 59%;
     font-size: 12px;
 }
 .right_side {
     float: right;
+     width: 41%;
+
 }
 
 .ugc {
