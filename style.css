@@ -392,12 +392,12 @@ h4.dip {
   background: #fff url("img/team.png") repeat scroll 0 0;
   padding-top: 120px;
 }
-.succ_single {
-  background: #dc002e;
-}
+
+/*
 .success_single.col-md-4 {
   padding-right: 0 !important;
 }
+*/
 .success_single_left {
   margin-right: 15px;
   width: 152px;text-align: center;
@@ -417,4 +417,56 @@ h4.dip {
 }
 .slider_area {
     position: relative
+}
+
+.success_single_right {
+    float: right;
+    width: 50%;
+    overflow: hidden;
+}
+.success_single_left {
+    margin-right: 15px;
+    width: 45%;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+.succ_single {
+    background: #dc002e;
+    width: 100%;padding: 18px 22px;padding: 31px 0px;
+    overflow: hidden;
+}
+.man_bg1 {
+	background: #dc002e;
+}
+
+.man_bg2 {
+	background: #8d4696;
+}
+
+.man_bg3 {
+	background: #dc9e00;
+}
+
+.man_bg4 {
+	background: #00a0dc;
+}
+
+.man_bg5 {
+	background: #a7c11b;
+}
+
+.man_bg6 {
+	background: #b6267a;
+}
+
+.success_single {
+	margin-bottom: 20px;
+}
+
+h3.sname {
+    font-size: 18px;
+    /* padding: 6px; */
+    /* border-top: 2px solid #ddd; */
+    /* width: 20px; */
 }
