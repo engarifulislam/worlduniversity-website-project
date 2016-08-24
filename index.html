@@ -11,6 +11,7 @@
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
 
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 	<!--        animated CSS-->
@@ -49,31 +50,31 @@
 				<div class="item active">
 					<img src="img/slider.png" alt="...">
 					<div class="carousel-caption">
-
+						<h1>ivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis,</h1>
 					</div>
 				</div>
 				<div class="item">
 					<img src="img/slider.png" alt="...">
 					<div class="carousel-caption">
-
+						<h1>ivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis,</h1>
 					</div>
 				</div>
 				<div class="item">
 					<img src="img/slider.png" alt="...">
 					<div class="carousel-caption">
-
+						<h1>ivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis,</h1>
 					</div>
 				</div>
 				<div class="item">
 					<img src="img/slider.png" alt="...">
 					<div class="carousel-caption">
-
+						<h1>ivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis,</h1>
 					</div>
 				</div>
 				<div class="item">
 					<img src="img/slider.png" alt="...">
 					<div class="carousel-caption">
-
+						<h1>ivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis,</h1>
 					</div>
 				</div>
 
@@ -208,7 +209,17 @@
 		</div>
 	</div>
 	<div class="how_to_enroll">
-		<a href=""><img src="img/how-to-enroll.png" alt=""></a>
+		<!--		<a href=""><img src="img/howtoenroll.jpg" alt=""></a>-->
+		<div class="container">
+			<div class="row">
+				<div class="how_to_enroll col-md-12">
+					<h1>How to enroll ?</h1>
+					<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+
+					<a href="">apply Now</a>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="department_area">
 		<div class="department">
@@ -421,7 +432,22 @@
 	</div>
 
 	<div class="google_map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14608.58763323383!2d90.3824558!3d23.7421401!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73f322f08e17d565!2sWorld+University+of+Bangladesh!5e0!3m2!1sen!2s!4v1469414805761" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+		<div id="map"></div>
+		<script>
+			function initMap() {
+				var mapDiv = document.getElementById('map');
+				var map = new google.maps.Map(mapDiv, {
+					center: {
+						lat: 23.7421401,
+						lng: 90.3824558
+					},
+					zoom: 8
+				});
+			}
+
+		</script>
+		<!--		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14608.58763323383!2d90.3824558!3d23.7421401!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73f322f08e17d565!2sWorld+University+of+Bangladesh!5e0!3m2!1sen!2s!4v1469414805761" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 	</div>
 
 	<div class="locatino_aera">
@@ -432,7 +458,7 @@
 
 
 					<div class="loc_left">
-						<div class="mid_cd col-md-8">
+						<div class="mid_cd col-md-9">
 							<div class="locatino_left">
 								<h2>Campuses:</h2>
 								<h4>Main Campus</h4>
@@ -480,8 +506,9 @@
 						</div>
 					</div>
 					<div class="loc_right">
-						<div class="col-md-4">
+						<div class="ques col-md-3">
 							<h1>QUESTIONS? QUERIES? FEEL FREE TO CONTACT US</h1>
+							<a href=""><img src="img/clicktolivechat.jpg" alt=""></a>
 						</div>
 					</div>
 				</div>
@@ -494,75 +521,81 @@
 				<div class="footer_top col-md-12">
 					<div class="fanapge col-md-3">
 						<h2>Facebook  official fan page</h2>
+						<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fwubedubd&amp;width=240&amp;height=230&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color=%23f2f0eb&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:215px;" allowtransparency="true"></iframe>
+					</div>
+
+					<!--
 						<div class="fb-page" data-href="https://www.facebook.com/wubedubd" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
 							<blockquote cite="https://www.facebook.com/wubedubd" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/wubedubd">World University of Bangladesh</a></blockquote>
 						</div>
-						<div id="fb-root"></div>
-<script>
-	(function(d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-		js = d.createElement(s);
-		js.id = id;
-		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=669047076547459";
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-</script>
-					</div>
-					<div class="fotter_menu col-md-9">
-						<h2>Information at a glance</h2>
-						<ul class="manu1">
-							<li><a href="">Home</a></li>
-							<li><a href="">- Contact Us</a></li>
-							<li><a href="">- Career</a></li>
-							<li><a href="">- Campuses</a></li>
-							<li><a href="">- Get Inspired</a></li>
-							<li><a href="">- My Wub </a></li>
+-->
+					<div id="fb-root"></div>
+					<script>
+						(function(d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s);
+							js.id = id;
+							js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=669047076547459";
+							fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));
 
-						</ul>
-						<ul class="manu2">
-							<li><a href="">About</a></li>
-							<li><a href="">- Accreditation</a></li>
-							<li><a href="">- History</a></li>
-							<li><a href="">- Mission</a></li>
-							<li><a href="">- Board of Trustees</a></li>
-							<li><a href="">- CSR Activities</a></li>
-							<li><a href="">- Media Room   </a></li>
-						</ul>
-						<ul cliss="manu3">
-							<li><a href="">Admission</a></li>
-							<li><a href="">- Admision Eligibility</a></li>
-							<li><a href="">- Tution Fees</a></li>
-							<li><a href="">- Scholirship & Aid </a></li>
-							<li><a href="">- Facilities</a></li>
-							<li><a href="">- Digital Technology</a></li>
-							<li><a href="">- Student Support </a></li>
-						</ul>
+					</script>
+				</div>
+				<div class="fotter_menu col-md-9">
+					<h2>Information at a glance</h2>
+					<ul class="manu1">
+						<li class="onesds"><a href="">Home</a></li>
+						<li><a href="">- Contact Us</a></li>
+						<li><a href="">- Career</a></li>
+						<li><a href="">- Campuses</a></li>
+						<li><a href="">- Get Inspired</a></li>
+						<li><a href="">- My Wub </a></li>
 
-						<ul cliss="manu4">
-							<li><a href="">Academic</a></li>
-							<li><a href="">- Departments</a></li>
-							<li><a href="">- Programs</a></li>
-							<li><a href="">- Faculty Members</a></li>
-							<li><a href="">- Academic Council</a></li>
-							<li><a href="">- Syndicate</a></li>
-							<li><a href="">- Journals</a></li>
-							<li><a href="">- Awards</a></li>
-							<li><a href="">- Student Clubs</a></li>
-						</ul>
+					</ul>
+					<ul class="manu2">
+						<li class="onesds"><a href="">About</a></li>
+						<li><a href="">- Accreditation</a></li>
+						<li><a href="">- History</a></li>
+						<li><a href="">- Mission</a></li>
+						<li><a href="">- Board of Trustees</a></li>
+						<li><a href="">- CSR Activities</a></li>
+						<li><a href="">- Media Room   </a></li>
+					</ul>
+					<ul cliss="manu3">
+						<li class="onesds"><a href="">Admission</a></li>
+						<li><a href="">- Admision Eligibility</a></li>
+						<li><a href="">- Tution Fees</a></li>
+						<li><a href="">- Scholirship & Aid </a></li>
+						<li><a href="">- Facilities</a></li>
+						<li><a href="">- Digital Technology</a></li>
+						<li><a href="">- Student Support </a></li>
+					</ul>
 
-						<ul cliss="manu5">
-							<li><a href="">Administration</a></li>
-							<li><a href="">- Vice Chancellor Office</a></li>
-							<li><a href="">- Registrar’s Office</a></li>
-							<li><a href="">- Administration</a></li>
-							<li><a href="">- IT Division</a></li>
+					<ul cliss="manu4">
+						<li class="onesds"><a href="">Academic</a></li>
+						<li><a href="">- Departments</a></li>
+						<li><a href="">- Programs</a></li>
+						<li><a href="">- Faculty Members</a></li>
+						<li><a href="">- Academic Council</a></li>
+						<li><a href="">- Syndicate</a></li>
+						<li><a href="">- Journals</a></li>
+						<li><a href="">- Awards</a></li>
+						<li><a href="">- Student Clubs</a></li>
+					</ul>
 
-						</ul>
-					</div>
+					<ul cliss="manu5">
+						<li class="onesds"><a href="">Administration</a></li>
+						<li><a href="">- Vice Chancellor Office</a></li>
+						<li><a href="">- Registrar’s Office</a></li>
+						<li><a href="">- Administration</a></li>
+						<li><a href="">- IT Division</a></li>
+
+					</ul>
 				</div>
 			</div>
 		</div>
+	</div>
 
 	</div>
 	<div class="footer_area"></div>
@@ -572,6 +605,8 @@
 	<!--       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>-->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgUjjWlyQg93Y5yqOQ58schkA757X5BSE&callback=initMap"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/main.js"></script>
 	</div>

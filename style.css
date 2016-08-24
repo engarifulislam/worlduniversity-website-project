@@ -70,13 +70,15 @@
  }
  ugc img {}
  .right_side input {
- 	border: 2px solid #ddd;
- 	border-radius: 5px;
+ 	border: medium none;
+ 	border-radius: 6px;
+ 	color: #77808f;
  	font-size: 16px;
- 	height: 40px;
- 	padding-left: 10px;
- 	width: 250px;
+ 	font-weight: 500;
+ 	height: 35px;
  	margin-right: 20px;
+ 	padding-left: 10px;
+ 	width: 280px;
  }
  .right_side > a {
  	background: #fcb608 none repeat scroll 0 0;
@@ -88,7 +90,15 @@
  }
  .right_side > a .fa.fa-facebook {
  	text-align: center;
- 	width: 23px;
+ 	width: 26px;
+ }
+ .ugc a {
+ 	font-size: 13px;
+ 	color: #fff;
+ }
+ .ugc > p {
+ 	color: #fff;
+ 	font-size: 13px;
  }
  .right_side > a .fa.fa-linkedin {
  	text-align: center;
@@ -104,18 +114,25 @@
  }
  .left_side p {}
  .left_side img {}
- .main_menu {}
+ .main_menu {
+ 	margin-top: 14px;
+ }
  .main_menu ul {
  	margin: 0;
+ 	float: right;
  	padding: 0;
  	list-style: none;
+ }
+ .logo.col-md-4 img {
+ 	width: 333px;
  }
  .main_menu ul li {
  	color: #fff;
  	float: left;
- 	font-size: 18px;
- 	font-weight: 600;
- 	padding: 14px;
+ 	font-family: "Open Sans", sans-serif;
+ 	padding: 15px 8px;
+ 	text-align: center;
+ 	width: 141px;
  }
  .main_menu ul li:nth-child(1) {
  	background: #10243c;
@@ -126,20 +143,21 @@
  	color: #fff;
  }
  .main_menu ul li:nth-child(3) {
- 	background: #237cca;
+ 	background: #378fd3;
  	color: #fff;
  }
- .main_menu ul li:nth-child(3) {
- 	background: #a5b9d3;
+ .main_menu ul li:nth-child(4) {
+ 	background: #a5b9d3!important;
  	color: #fff;
  }
- .main_menu ul li:nth-child(3) {
- 	background: #d6d6dd;
+ .main_menu ul li:nth-child(5) {
+ 	background: #d2dce1;
  	color: #fff;
  }
  .main_menu ul li a {
- 	font-size: 18px;
  	color: #fff;
+ 	font-size: 14px;
+ 	font-weight: 800;
  }
  .main_menu ul li a:hover {}
  .header_bottom {
@@ -157,9 +175,12 @@
  	width: 159px;
  }
  .affiliation_area {
- 	position: relative;
  	background: url(img/afi-bg.png);
- 	z-index: 1;
+ 	color: #fff;
+ 	display: block;
+ 	position: relative;
+ 	/* 	max-width: 1500px;*/
+ 	margin: 0 auto;
  }
  .affiliation_area::after {
  	background: inherit;
@@ -182,9 +203,12 @@
  	margin-top: 110px;
  }
  .single_item_university {
- 	border-left: 1px solid #ddd;
  	float: left;
  	width: 380px;
+ }
+ .single_item_university:nth-child(2) {
+ 	border-left: 1px solid #ddd;
+ 	border-right: 1px solid #ddd;
  }
  .single_item_university > h4 {
  	color: #5cc6ed;
@@ -209,14 +233,44 @@
  	margin-bottom: 80px;
  }
  .how_to_enroll {
- 	/*  background: rgba(0, 0, 0, 0) url("img/how-to-enroll.png") repeat scroll 0 0 / cover ;*/
- 	height: 249px;
+ 	background: rgba(0, 0, 0, 0) url("img/howtoenroll.jpg") repeat scroll 0 0;
+ 	height: 314px;
+ 	text-align: center;
  }
+ .how_to_enroll.col-md-12 > h1 {
+ 	color: #ffc900;
+ 	font-family: "Lato", sans-serif;
+ 	font-size: 52px;
+ 	font-weight: 900;
+ 	margin-top: 26px;
+ }
+ .carousel-caption > h1 {
+ 	font-size: 34px;
+ 	line-height: 51px;
+ 	margin-bottom: 106px;
+ }
+ .how_to_enroll.col-md-12 > a {
+ 	background: #ffc900 none repeat scroll 0 0;
+ 	color: #fff;
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 17px;
+ 	font-weight: 900;
+ 	overflow: hidden;
+ 	padding: 11px 22px;
+ 	text-transform: uppercase;
+ }
+ .how_to_enroll.col-md-12 > p {
+ 	margin-bottom: 29px;
+ 	padding: 0 56px;
+ }
+ /*
  department_area {
  	position: relative;
  	background: url(img/all-depertment.png);
  	z-index: 1;
  }
+*/
+
  .department_area {
  	position: relative;
  	background: url(img/all-depertment.png);
@@ -478,7 +532,7 @@
  }
  .locatino_left {
  	float: left;
- 	width: 55%;
+ 	width: 44%;
  	background: #fff;
  	padding: 20px;
  }
@@ -486,7 +540,7 @@
  	float: right;
  	background: #f2f2f2;
  	overflow: hidden;
- 	width: 45%;
+ 	width: 56%;
  	padding: 17px;
  }
  .loc_left {}
@@ -498,47 +552,101 @@
  
  .locatino_right lable {
  	float: left;
- 	font-size: 14px!important;
- 	width: 65px;
+ 	font-size: 14px !important;
  	font-weight: bold;
+ 	margin-right: 10px;
  	margin-top: 11px;
  	overflow: hidden;
+ 	text-align: right;
+ 	width: 82px;
  }
  .locatino_right input[type="text"],
  input[type="email"],
  input[type="phone"] {
- 	height: 40px;
- 	margin-bottom: 10px;
- 	width: 238px;
- 	overflow: hidden;
  	border: 2px solid #ddd;
- 	padding: 8px;
  	border-radius: 5px;
+ 	height: 41px;
+ 	margin-bottom: 10px;
+ 	overflow: hidden;
+ 	padding: 8px;
+ 	width: 294px;
  }
  .locatino_right input[type="button"] {
- 	float: right;
- 	padding: 7px 40px;
- 	background: #000000;
+ 	background: #000000 none repeat scroll 0 0;
+ 	border: medium none;
  	color: #fff;
- 	font-size: 14px;
- 	font-weight: bold;
+ 	font-size: 27px;
+ 	font-weight: 500;
+ 	margin-left: 92px;
  	margin-top: 10px;
- 	border: none;
- 	/* border-radius: 5px; */
+ 	padding: 6px 109px;
+ 	text-align: center;
  }
  .locatino_right textarea {
- 	margin: 0px;
- 	width: 236px;
- 	height: 227px
+ 	border: 2px solid #ddd;
+ 	border-radius: 5px;
+ 	height: 212px;
+ 	margin: 0;
+ 	width: 292px;
+ }
+ .locatino_right > h2 {
+ 	font-size: 23px;
+ 	font-weight: 400;
+ }
+ .locatino_left > h2 {
+ 	font-size: 23px;
+ 	font-weight: 400;
+ }
+ .ques > h1 {
+ 	color: #fff;
+ 	font-size: 37px;
+ 	font-weight: 300;
+ 	line-height: 46px;
+ 	margin-top: 22px;
+ }
+ .locatino_left > h4 {
+ 	font-size: 15px;
+ 	font-weight: 700;
+ 	margin-bottom: 10px;
+ 	margin-top: 20px;
+ }
+ .perma > h2 {
+ 	font-size: 28px;
+ 	font-weight: 700;
+ 	margin-bottom: 12px;
+ }
+ .ques.col-md-3 img {
+ 	position: absolute;
+ 	top: 465px;
+ 	width: 202px;
+ }
+ .fanapge.col-md-3 > h2 {
+ 	color: #fd8a02;
+ 	font-size: 15px;
+ 	font-weight: 900;
+ }
+ .fotter_menu.col-md-9 > h2 {
+ 	color: #11266f;
+ 	font-size: 15px;
+ 	font-weight: 900;
+ }
+ .onesds > a {
+ 	font-size: 16px;
+ 	font-weight: 700;
+ 	margin-left: -10px;
  }
  .fotter_menu {}
  .fotter_menu ul {
- 	margin: 0;
- 	padding: 0;
- 	list-style: none;
  	float: left;
+ 	font-size: 15px;
+ 	font-weight: 500;
+ 	list-style: outside none none;
+ 	margin: 0 6px 0 0;
+ 	padding: 0;
  	width: 159px;
- 	margin-right: 6px;
+ }
+ .footer_top.col-md-12 {
+ 	margin-top: 21px;
  }
  .fotter_menu ul li {
  	color: #0070c1;
